@@ -14,42 +14,55 @@
     <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
     <!-- 引入重置样式 -->
     <link rel="stylesheet" href="../css/reset.css">
+    <!-- 引入font-awesome -->
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- 引入主样式 -->
     <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
     <!-- 顶部导航栏 -->
-    <div class="topbar">
-        <div class="container" clearfix>
+    <div class="topbar" >
+        <div class="container" clearfix >
             <!-- 图标 -->
-            <div class="logo" style="top: 16px;display: flex;align-items: center;">
-                <img src="" alt="">
+            <div  class="topbar-logo leftfix" >
+                <a href="" target="_top">
+               <img width="217" height="32" src="../images/logo.png" >
+                </a>
             </div>
+           
             <!-- 内容 -->
-            <div class="topbar-nav" >
+            <div class="topbar-nav " >
                 <ul>
-                    <li>课程</li>
-                    <li>探索</li>
-                    <li>同学圈</li>
-                    <li>鹿小鹿</li>
-                    <li>新手指南</li>
+                    <li><a href="">课程</a></li>
+                    <li><a href="">探索</a></li>
+                    <li><a href="">同学圈</a></li>
+                    <li><a href="">鹿小鹿</a></li>
+                    <li><a href="">新手指南</a></li>
                 </ul>
             </div>
             <!-- 右侧 -->
-            <div class="topbar-nav-rightpart rightfix" >
-                <div class="topbar-nav-searchfun">
-
-                </div>
-                <div class="topbar-nav-login">登录</div>
-                <div class="topbar-nav-register">注册</div>
+            <div class="topbar-nav-login ">
+                <a href="">登录 | 注册</a>
             </div>
+            <!-- 搜索框 -->
+            <div  class="topbar-nav-searchfun">
+                <form>
+                    <input type="text" placeholder="搜索课程">
+                    <button type="submit"></button>
+                </form>
+            <!-- <input type="text" placeholder="搜索课程">
+            <button>搜索</button> -->
         </div>
     </div>
-    <!-- 快捷图标 -->
-    <div>
-        
     </div>
 
-    <!-- 最新消息 -->
-</body>
+    <!-- 内容区域 -->
+    <div class="">
+        <div class="container">
+            内容
+        </div>
+
+    </div>
+    </body>
 </html>

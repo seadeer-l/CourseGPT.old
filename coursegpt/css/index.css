@@ -1,15 +1,82 @@
+body{
+    background: #eee;
+}
+
 /* #region顶部导航栏begin */
 .topbar {
-    height: 64px;
     background-color: white;
+    padding: 8px 0;
+    font-size: 16px;
+    font-family:"微软雅黑" ;
 }
 .container {
     width: 1200px;
+    margin: 0 auto;
+    /* border:1px solid black; */
+    overflow:hidden;
 }
-.topbar-nav ul li, .topbar-nav-login,.topbar-nav-register{
-    display: inline-block;
+.topbar-logo{
+    margin: 8px 48px 8px 0;
+
 }
+.topbar-nav ul li{
 
-
+    float: left;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+.topbar-nav-login {
+    float: right;
+    margin-top: 15px;
+    margin-left: 128px;
+}
+.topbar-nav-searchfun {
+    float: right;
+    margin-top: 0px;
+}
 
 /* #endregion顶部导航栏end */
+
+/* 搜索框 start*/
+
+.topbar-nav-searchfun form {
+    position: relative;
+    width: 300px;
+    height: 42px;
+}
+.topbar-nav-searchfun input, button {
+    border: none;
+    outline: none;
+}
+.topbar-nav-searchfun input {
+    width: 250px;
+    height: 42px;
+    float: right;
+    padding-left: 13px;
+    border-radius: 42px;
+    border: 2px solid rgb(50,205,50);
+    background :white;    /* #F9F0DA; */
+    transition: .2s linear;
+}
+.topbar-nav-searchfun button {
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    background: none;
+}
+.topbar-nav-searchfun input:focus {
+    width: 300px;
+}
+.topbar-nav-searchfun button:before {
+    font-size: large;
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #324b4e;
+}
+.topbar-nav-searchfun button:hover:before {
+    color: rgb(50,205,50);
+}
+/* 搜索框 end*/
