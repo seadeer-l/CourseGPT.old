@@ -8,6 +8,9 @@ body{
     padding: 8px 0;
     font-size: 16px;
     font-family:"微软雅黑" ;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .container {
     width: 1200px;
@@ -17,7 +20,6 @@ body{
 }
 .topbar-logo{
     margin: 8px 48px 8px 0;
-
 }
 .topbar-nav ul li{
 
@@ -80,3 +82,5 @@ body{
     color: rgb(50,205,50);
 }
 /* 搜索框 end*/
+
+

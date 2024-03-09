@@ -1,0 +1,27 @@
+
+/* 内容区域start */
+.canlendar,
+.To-do-box ,
+.message-box {
+    background-color: white;
+    box-shadow: 0 4px 16px #1d212914;
+}
+.To-do-box ,
+.message-box {
+    width: 400px;
+    height: 400px;
+}
+.canlendar {
+
+    width:  750px;
+    height: 828px;
+    margin:32px  0;
+    
+}
+.To-do-box {
+    margin:32px 0 0 0;
+}
+.message-box {
+    margin-top:28px;
+}
+/* 内容区域end */
