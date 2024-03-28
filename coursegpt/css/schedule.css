@@ -5,6 +5,7 @@
 .message-box {
     background-color: white;
     box-shadow: 0 4px 16px #1d212914;
+    border-radius: 40px;
 }
 .To-do-box ,
 .message-box {

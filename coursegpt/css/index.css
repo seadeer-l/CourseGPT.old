@@ -3,7 +3,8 @@ body{
 }
 
 /* #region顶部导航栏begin */
-.topbar {
+.topbar { 
+    width: 100%;
     background-color: white;
     padding: 8px 0;
     font-size: 16px;
@@ -11,6 +12,7 @@ body{
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
+    box-shadow: 0 2px 8px #1d212914;
 }
 .container {
     width: 1200px;
@@ -22,7 +24,6 @@ body{
     margin: 8px 48px 8px 0;
 }
 .topbar-nav ul li{
-
     float: left;
     margin-top: 15px;
     margin-left: 32px;
@@ -82,5 +83,61 @@ body{
     color: rgb(50,205,50);
 }
 /* 搜索框 end*/
+
+/* 内容部分 start*/
+
+.index_body {
+	height:90vh; 
+    margin-top: 2vh;
+}
+    /* 滑动窗口页 */
+.click_slide {
+    height:45%;
+    background-color: azure;
+}
+    /* 导航部分 */
+.index_body_nav {
+    margin: 3% 0 0.5% 0 ;
+}
+.courses_title {
+    font-size:x-large;
+}
+.index_body_nav ul {
+    display: inline-block;
+}
+.index_body_nav ul li{
+    float: left;
+    margin-top: 15px;
+    margin-left: 32px;
+    color: #000000bb;
+}
+.index_body_nav ul li:active {
+    color:  rgb(50,205,50);
+}
+    /* 课程部分 */
+.index_courses {
+    height:50%;
+}
+.index_courses ul {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.index_courses ul li {
+    float: left;
+    width: 22%;
+    height: 150px;
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.index_courses ul li:hover {
+    box-shadow: 0 4px 32px #1e222b21;
+    transition: all 0.3s; 
+    cursor: pointer;
+    -webkit-transform:translate3d(0,-10px,0) ;
+
+}
+/* 内容部分 end*/
 
 
